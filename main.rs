@@ -28,4 +28,9 @@ fn main() {
     // btw, statements can obviously span multiple lines, semi colon marks
     // EOS
 
+    // functions, arrow indicates return type
+    fn _fair_dice_roll() -> i32 {
+        return 4;
+    }
+
 }
