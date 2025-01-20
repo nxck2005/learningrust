@@ -33,4 +33,15 @@ fn main() {
         return 4;
     }
 
+    // blocks, pair of brackets declares it
+    // has its own scope
+    // are also expressions, so evaluates to a value
+
+    let z = {
+        let z = 1; // different x as scopes are different
+        let y = 2;
+        z + y // so called 'tail', what the whole block will evaluate to
+    };
+    println!("{}", z);
+
 }
