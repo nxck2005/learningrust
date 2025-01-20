@@ -20,4 +20,12 @@ fn main() {
     
     let pair: (char, i32) = ('a', 17);
     println!("{:?}", pair);
+
+    // destructuring (breaking down a tuple)
+    let (some_char, some_int) = pair;
+    println!("{} {}", some_char, some_int);
+
+    // btw, statements can obviously span multiple lines, semi colon marks
+    // EOS
+
 }
