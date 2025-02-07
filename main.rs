@@ -1,5 +1,7 @@
 fn main() {
 
+    println!("hello, world");
+
     // var bindings + type annotations + unused vars
 
     let y:i32 = 123;
