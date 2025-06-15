@@ -1,6 +1,7 @@
 fn main() {
 
     println!("hello, world");
+    println!("i learn rust here :)");
 
     // var bindings + type annotations + unused vars
 
