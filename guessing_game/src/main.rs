@@ -8,7 +8,7 @@ fn main() {
 
    io::stdin()
         .read_line(&mut guess)
-        .expect("Failed to read line");
+        .expect("Error");
 
     println!("You guessed {}.", guess);
 }
